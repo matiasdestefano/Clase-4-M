@@ -22,8 +22,7 @@ func main() {
 
 func validarSalario(salary int) error {
 	if salary < 150000 {
-		err := errorDeSalario()
-		return err
+		return errorDeSalario()
 	}
 	return nil
 }
